@@ -1,0 +1,93 @@
+.App {
+    text-align: center;
+  }
+  
+  p.title{
+    font-size: 2rem;
+    color: #ec626d;
+  }
+  
+  p.title::before,
+  p.title::after {
+      display: inline-block;
+      content: "";
+      border-top: 0.1rem solid lightgray;
+      width: 10rem;
+      margin: 0 1rem;
+      transform: translateY(-0.5rem);
+  }
+  
+  .cart-box{
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
+  
+  .box{
+    display: block;
+    width: 30rem;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid lightgray;
+  }
+  
+  .total{
+    display: block;
+    width: 30rem;
+    height: auto;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .offer-text{
+    background-color: #ec626d;
+    color: white;
+    padding: 0.2rem;
+  }
+  
+  .price{
+    padding-top: 2.2rem;
+    padding-right: 3rem;
+  }
+  
+  .check-box{
+    padding-top: 2.2rem;
+  }
+  
+  .form-check-input{
+    margin-right: 1rem;
+  }
+  
+  .secondary-box-inner-content{
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .form-check-input:checked{
+    background-color: #ec626d !important;
+    border-color: #ec626d !important;
+  }
+  
+  .secondary-box-tag{
+    position: absolute;
+    background-color: #ec626d;
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    margin-left: 21.5rem;
+    margin-top: -8.5rem;
+  }
+  
+  .free-delivery{
+    color: #ec626d;
+    float: left;
+    margin-left: 1.5rem;
+  }
+  
+  .btn{
+    background-color: #ec626d !important;
+    color: white !important;
+    width: 30rem;
+  }
